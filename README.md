@@ -20,3 +20,20 @@ env_name = 'FlappyBird-v0'
 训练结果截图
 ![结果过程截图1](img/img2.png)
 ![结果过程截图2](img/img3.png)
+
+## 怎么使用agent来玩falppy bird
+1. 第一步，配置环境
+```
+pip install -r requirements.txt
+```
+
+2. 运行test_ppo.py文件 可以使用以下命令,
+```
+python test_ppo.py
+```
+
+3. 如果想自己训练模型，可以运行ppo.py文件
+```
+python ppo.py
+```
+
