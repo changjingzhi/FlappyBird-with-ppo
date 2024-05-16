@@ -27,9 +27,9 @@ env_name = 'FlappyBird-v0'
 pip install -r requirements.txt
 ```
 
-2. 运行test_ppo.py文件 可以使用以下命令,
+2. 运行test.py文件 可以使用以下命令,
 ```
-python test_ppo.py
+python test.py
 ```
 
 3. 如果想自己训练模型，可以运行ppo.py文件
