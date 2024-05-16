@@ -21,7 +21,7 @@ env_name = 'FlappyBird-v0'
 
 
 ![结果过程截图1](img/img2.png)
-![结果过程截图2](img/img3.png)
+
 
 ## 怎么使用agent来玩falppy bird
 1. 第一步，配置环境
