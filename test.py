@@ -10,7 +10,7 @@ env = gym.make("FlappyBird-v0", render_mode="human")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # 定义模型路径
-model_path = "model/ppo_god_model.pth"
+model_path = "model/ppo_bed_model.pth"
 
 class PolicyNet(torch.nn.Module):
     def __init__(self, state_dim, hidden_dim, action_dim):

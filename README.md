@@ -3,6 +3,7 @@
 
 ## 基本资料
 # 定义超参数和环境
+```
 actor_lr = 1e-6
 critic_lr = 1e-5
 num_episodes = 100000
@@ -13,7 +14,7 @@ epochs = 10
 eps = 0.2
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 env_name = 'FlappyBird-v0'
-
+```
 基本上一轮在GTX3080显卡上需要跑
 ![训练过程](img/img1.png)
 
