@@ -15,8 +15,8 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cp
 env_name = 'FlappyBird-v0'
 
 基本上一轮在GTX3080显卡上需要跑
-![训练过程](img\img1.png)
+![训练过程](img/img1.png)
 
 训练结果截图
-![结果过程截图1](img\img2.png)
-![结果过程截图2](img\img3.png)
+![结果过程截图1](img/img2.png)
+![结果过程截图2](img/img3.png)
