@@ -110,7 +110,7 @@ class PPO:
 # 定义超参数和环境
 actor_lr = 1e-6
 critic_lr = 1e-5
-num_episodes = 100000
+num_episodes = 10000
 hidden_dim = 64
 gamma = 0.99
 lmbda = 0.95
